@@ -1,0 +1,9 @@
+[submodule "Unmanaged/nasm-textmate-bundle"]
+	path = Unmanaged/nasm-textmate-bundle
+	url = git@github.com:yuikns/nasm-textmate-bundle.git
+[submodule "Unmanaged/rust.tmbundle"]
+	path = Unmanaged/rust.tmbundle
+	url = https://github.com/carols10cents/rust.tmbundle.git
+[submodule "Unmanaged/protobuf-textmate-bundle"]
+	path = Unmanaged/protobuf-textmate-bundle
+	url = git@github.com:yuikns/protobuf-tmbundle.git

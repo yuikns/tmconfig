@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>command</key>
+		<string>#!/usr/bin/env ruby18 -wKU
+
+require "#{ENV['TM_BUNDLE_SUPPORT']}/gomate"
+Go::gogetdoc
+</string>
+	</dict>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>7BCFCFC8-9152-4638-8436-E17B0C754C8D</string>
+</dict>
+</plist>

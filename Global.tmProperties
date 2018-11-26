@@ -1,0 +1,264 @@
+# Version 1.0 -- Generated content!
+fontName         = FantasqueSansMono-Regular
+fontSize         = 13
+include          = {$include,.*}
+lineEndings      = '\n'
+showInvisibles   = true
+showWrapColumn   = true
+softTabs         = true
+softWrap         = true
+tabSize          = 2
+theme            = 82CCD69C-F1B1-4529-B39E-780F91F07604
+wrapColumn       = 0
+
+[ *.c ]
+fileType         = source.c++
+
+[ *.h ]
+fileType         = source.c++
+
+[ *.s ]
+fileType         = source.asm.nasm
+
+[ *.v ]
+fileType         = text.plain
+
+[ *.cc ]
+fileType         = source.c++
+
+[ *.hh ]
+fileType         = source.c++
+
+[ *.js ]
+fileType         = source.js
+
+[ *.md ]
+fileType         = text.html.markdown
+
+[ *.py ]
+fileType         = source.python
+
+[ *.rc ]
+fileType         = source.shell
+
+[ *.rs ]
+fileType         = source.rust
+
+[ *.sh ]
+fileType         = source.shell
+
+[ *.Dic ]
+fileType         = text.plain
+
+[ *.asm ]
+fileType         = source.asm.nasm
+
+[ *.ass ]
+fileType         = text.plain
+
+[ *.bzl ]
+fileType         = source.python
+
+[ *.cfg ]
+fileType         = text.plain
+
+[ *.crt ]
+fileType         = text.plain
+
+[ *.hql ]
+fileType         = source.sql
+
+[ *.inc ]
+fileType         = source.asm.nasm
+
+[ *.ipr ]
+fileType         = text.xml
+
+[ *.log ]
+fileType         = text.plain
+
+[ *.pac ]
+fileType         = text.plain
+
+[ *.pub ]
+fileType         = text.plain
+
+[ *.rst ]
+fileType         = text.restructuredtext
+
+[ *.sbt ]
+fileType         = text.plain
+
+[ *.scc ]
+fileType         = text.plain
+
+[ *.tsv ]
+fileType         = text.plain
+
+[ *.txt ]
+fileType         = text.plain
+
+[ *.vue ]
+fileType         = source.js
+
+[ *.wtf ]
+fileType         = text.plain
+
+[ *.h.in ]
+fileType         = source.c++
+
+[ *.html ]
+fileType         = text.html.basic
+
+[ *.java ]
+fileType         = source.java
+
+[ *.json ]
+fileType         = source.json
+
+[ *.lock ]
+fileType         = text.plain
+
+[ *.stop ]
+fileType         = text.plain
+
+[ *.toml ]
+fileType         = source.rs
+
+[ *.wsgi ]
+fileType         = text.plain
+
+[ .psrc ]
+fileType         = source.shell
+
+[ BUILD ]
+fileType         = source.python
+
+[ *.lexlm ]
+fileType         = text.plain
+
+[ *.model ]
+fileType         = text.plain
+
+[ *.pb.cc ]
+fileType         = source.c++
+
+[ *.pc.in ]
+fileType         = text.plain
+
+[ *.proto ]
+fileType         = source.protobuf
+
+[ *.scala ]
+fileType         = source.scala
+
+[ .alias ]
+fileType         = source.shell
+
+[ *.Legend ]
+fileType         = text.plain
+
+[ *.c.orig ]
+fileType         = source.c++
+
+[ *.status ]
+fileType         = text.xml
+
+[ *.vcproj ]
+fileType         = text.plain
+
+[ default ]
+fileType         = source.shell
+
+[ *.txt.bak ]
+fileType         = text.plain
+
+[ *.unimrcp ]
+fileType         = source.dockerfile
+
+[ activate ]
+fileType         = source.shell
+
+[ untitled ]
+fileType         = source.c
+
+[ *.babel.js ]
+fileType         = text.html.javadoc
+
+[ WORKSPACE ]
+fileType         = source.python
+
+[ *.ca-bundle ]
+fileType         = text.plain
+
+[ *.config.js ]
+fileType         = source.js
+
+[ *.tmCommand ]
+fileType         = source.c
+
+[ .gitignore ]
+fileType         = text.plain
+
+[ *.h.template ]
+fileType         = source.c++
+
+[ *.rc.example ]
+fileType         = source.shell
+
+[ .bash_aliases ]
+fileType         = source.shell
+
+[ CMakeLists.txt ]
+fileType         = source.cmake
+
+[ source ]
+showInvisibles   = true
+softTabs         = true
+softWrap         = true
+tabSize          = 2
+
+[ source.c ]
+showInvisibles   = true
+softTabs         = true
+softWrap         = false
+
+[ source.c++ ]
+showInvisibles   = true
+softTabs         = true
+softWrap         = true
+tabSize          = 2
+
+[ source.cmake ]
+showInvisibles   = false
+softWrap         = false
+tabSize          = 4
+
+[ source.js ]
+tabSize          = 2
+
+[ source.python ]
+softWrap         = true
+tabSize          = 2
+
+[ text ]
+showInvisibles   = false
+softTabs         = true
+
+[ text.html ]
+softTabs         = false
+softWrap         = false
+
+[ text.html.basic ]
+softTabs         = false
+softWrap         = false
+
+[ text.html.markdown ]
+softWrap         = true
+
+[ text.plain ]
+showInvisibles   = false
+softWrap         = true
+
+[ text.xml ]
+softTabs         = true

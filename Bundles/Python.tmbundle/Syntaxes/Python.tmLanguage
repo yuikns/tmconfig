@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>fileTypes</key>
+		<array>
+			<string>py</string>
+			<string>py3</string>
+			<string>rpy</string>
+			<string>pyw</string>
+			<string>cpy</string>
+			<string>SConstruct</string>
+			<string>Sconstruct</string>
+			<string>sconstruct</string>
+			<string>SConscript</string>
+			<string>gyp</string>
+			<string>gypi</string>
+			<string>BUILD</string>
+			<string>WORKSPACE</string>
+		</array>
+	</dict>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>F23DB5B2-7D08-11D9-A709-000D93B6E43C</string>
+</dict>
+</plist>

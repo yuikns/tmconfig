@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>command</key>
+		<string>#!/usr/bin/env ruby18 -wKU
+
+def tab
+	ENV['TM_SOFT_TABS'] == 'YES' ? ' ' * ENV['TM_TAB_SIZE'].to_i : "\t"
+end
+
+code = STDIN.read
+
+if code =~ /\A\s*\{\s*\n(.*\n)\s*\}\s*\z/m then
+  code = $1
+  code.gsub!(/^#{tab}/, '') if code =~ /\n.*\n/
+  STDOUT &lt;&lt; code
+else
+  STDOUT &lt;&lt; '}'
+end
+</string>
+		<key>inputFormat</key>
+		<string>text</string>
+		<key>outputCaret</key>
+		<string>heuristic</string>
+		<key>outputFormat</key>
+		<string>text</string>
+		<key>outputLocation</key>
+		<string>replaceInput</string>
+		<key>version</key>
+		<integer>2</integer>
+	</dict>
+	<key>deleted</key>
+	<array>
+		<string>output</string>
+	</array>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>DD42B10A-E753-4E08-A998-5C2E7C2D0CC2</string>
+</dict>
+</plist>
